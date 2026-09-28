@@ -1,0 +1,8 @@
+items=[2,6,89,23,50]
+print("original list",items)
+items.append(65)
+print("after adding at the end:",items)
+items.insert(1,22)
+print("after adding second position:",items)
+items.pop(2)
+print("after removing list:",items)

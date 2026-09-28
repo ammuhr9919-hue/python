@@ -1,0 +1,13 @@
+amount=int(input("enter your amount:"))
+if amount>=400:
+    print("much large")
+elif amount>=300:
+    print("too large")
+elif amount>=200:
+    print("small") 
+elif amount>=100:
+    print("too small") 
+else:
+    print("error")
+
+    print(f"amount:{amount}")

@@ -1,0 +1,8 @@
+item1={2,6,76,44,23}
+item2={56,66,34,2,6}
+print("items in both groups:",item1&item2)
+print("item only in item1:",item1-item2)
+print("item only in item2:",item2-item1)
+print("all items:",item1 | item2)
+print("number of item1:",len(item1))
+print("number of item2:",len(item2))

@@ -1,0 +1,6 @@
+m1=int(input("Enter mark 1:"))
+m2=int(input("Enter mark 2:"))
+m3=int(input("Enter mark 3:"))
+print("All marks are greater than 40:",m1>40 and m2>40 and m3>4)
+print("At least one mark greater than 90:",m1>90 or m2>90 or m3>90)
+print("first mark is not greater than second:",not (m1>m2))

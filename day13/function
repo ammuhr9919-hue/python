@@ -1,0 +1,10 @@
+def add_numbers(a,b):
+    return a+b
+result1=add_numbers(1020)
+print("sum:",result1)
+result2=add_numbers(20,30)
+print("sum:",result2)
+result3=add_numbers(40,20)
+print("sum:",result3)
+
+    

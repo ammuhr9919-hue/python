@@ -1,0 +1,6 @@
+f1={"cricket","football","tennis","hockey"}
+f2={"cricket","basketball","tennis","volleyball"} 
+print("common sports:",f1&f2)
+print("f1 only:",f1-f2)
+print("f2 only:",f2-f1)
+print("all sports:",f1|f2)

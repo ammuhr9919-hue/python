@@ -1,0 +1,7 @@
+def find_larger(a,b):
+    if a > b:
+        return a
+    else:
+        return b
+result=find_larger(25,40)
+print("larger number:",result)

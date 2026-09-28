@@ -1,0 +1,10 @@
+language={"c++","java","python"}
+print("original language:",language)
+language.add("c")
+print("after add:",language)
+language.update({"javascript","sql"})
+print("after update:",language)
+language.remove("c")
+print("after remove:",language)
+language.discard("ruby")
+print("after discard:",language)

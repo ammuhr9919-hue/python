@@ -1,0 +1,4 @@
+number=(50,45,60,66,34,88,66,50)
+print("original number:",number)
+print("reverse order:",number[::-1])
+print("second number:",number[::2])

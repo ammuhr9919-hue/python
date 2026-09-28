@@ -1,0 +1,10 @@
+word=input("Enter a letter:")
+vowels=0
+consonates=0
+for letter in word.lower():
+    if letter in "aeiou":
+        vowels=vowels+1
+    else:
+        consonates=consonates+1
+print("vowels:",vowels)
+print("consonates:",consonates)

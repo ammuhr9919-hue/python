@@ -1,0 +1,6 @@
+s1={"c++","java","python","DBMS","MC"}
+s2={"ui","uhv","java","c++","nss"}
+print("common subject:",s1&s2)
+print("s1 only:",s1-s2)
+print("s2 only:",s2-s1)
+print("all subject:",s1|s2)

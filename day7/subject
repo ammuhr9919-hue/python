@@ -1,0 +1,8 @@
+s1={"python","c++","java","DBMS"}
+s2={"python","nss","ds","java"}
+s3={"java","python","c","computer"}
+print("common all subject:",s1&s2&s3)
+print("common to s1 and s1:",s1&s2)
+print("only s3:",s3-s1-s2)
+print("all subject:",s1|s2|s3)
+print("not common to all:",(s1|s2|s3)-(s1&s2&s3))

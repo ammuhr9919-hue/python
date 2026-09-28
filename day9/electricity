@@ -1,0 +1,10 @@
+units=int(input("Enter units:"))
+if units<=100:
+    bill=units*2
+elif units<=200:
+    bill=units*3
+elif units<=300:
+    bill=units*5
+else:
+    bill=units*7
+print(f"electricity bill:{bill}")            

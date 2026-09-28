@@ -1,0 +1,14 @@
+name=input("Enter passenger name:")
+destination=input("Enter destination:")
+ticket_price=float(input("Enter ticket price:"))
+ticket=int(input("Enter number of ticket:"))
+hotel=float(input("Enter hotel cost:"))
+food=float(input("Enter food cost:"))
+ticket_total=ticket_price*ticket
+total_cost=ticket_total+hotel+food
+print(f"passenger:{name}")
+print(f"destination:{destination}")
+print(f"ticket cost:{ticket_total}")
+print(f"hotel cost:{hotel}")
+print(f"food cost:{food}")
+print(f"total_cost:{total_cost}")

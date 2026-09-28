@@ -1,0 +1,12 @@
+name=input("Enter employee name:")
+department=input("Enter department name:")
+basic=float(input("Enter basic salary:"))
+hra=float(input("Enter hra:"))
+da=float(input("Enter da:"))
+total=basic+hra+da
+print(f"name:{name}")
+print(f"department:{department}")
+print(f"basic salary:{basic}")
+print(f"hra:{hra}")
+print(f"da:{da}")
+print(f"total:{total}")

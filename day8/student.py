@@ -1,0 +1,16 @@
+marks={
+    "python":92,
+    "c++":85,
+    "java":78,
+    "DBMS":90,
+    "ds":80
+}
+total=sum(marks.values())
+average=total/len(marks)
+highest=max(marks.values())
+lowest=min(marks.values())
+print("marks:",marks)
+print("total:",total)
+print("average:",average)
+print("highest:",highest)
+print("lowest:",lowest)

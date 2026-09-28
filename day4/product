@@ -1,0 +1,8 @@
+product=input("Enter product name:")
+price=float(input("Enter price:"))
+quality=int(input("Enter quality:"))
+total_amount=price*quality
+print(f"product:{product}")
+print(f"price:{price}")
+print(f"quality:{quality}")
+print(f"total_amount:{total_amount}")

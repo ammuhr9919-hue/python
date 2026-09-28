@@ -1,0 +1,7 @@
+sentence=input("Enter your sentence:")
+sentence=sentence.strip()
+print("Uppercase=",sentence.upper())
+print("Lowercase=",sentence.lower())
+print("Replace=",sentence.replace(" ","_"))
+without_spaces=sentence.replace(" ","")
+print("number of characters",len(without_spaces))

@@ -1,0 +1,7 @@
+n=int(input("Enter your number"))
+count=1
+while count<=10:
+    print("number is devisibal")
+    count+=1
+else:
+    print("number not devisibal")
